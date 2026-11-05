@@ -1,17 +1,30 @@
 Autonomous Line-Tracking Robotic System
-> Πανεπιστημιακή εργασία στο πλαίσιο του Τμήματος Πληροφορικής (ΔΙΠΑΕ / DUTH Kavala).
+University Project within the Department of Informatics (International Hellenic University / DUTH Kavala).
 
-Σκοπός
-Σχεδιασμός, υλοποίηση και βελτιστοποίηση αυτόνομου κινούμενου ρομπότ με ικανότητα αναγνώρισης και παρακολούθησης καθορισμένης τροχιάς σε πραγματικό χρόνο. Το σύστημα βασίζεται στη συνεχή επεξεργασία σημάτων από διάταξη υπέρυθρων αισθητήρων για τον ακριβή έλεγχο των κινητήρων.
+Purpose
 
-Αρχιτεκτονική Hardware
-Μικροελεγκτής: Raspberry Pi Pico (ARM Cortex-M0+)
-Γλώσσα Προγραμματισμού: MicroPython
-Σύστημα Αισθητήρων: Διάταξη υπέρυθρων αισθητήρων (IR Sensor Array)
-Διαχείριση Ισχύος & Κίνησης: Μονάδα οδήγησης κινητήρων (DC Motor Driver) με διαμόρφωση εύρους παλμών (PWM)
-Αλγόριθμος Ελέγχου: Προσαρμοσμένη λογική αναδραστικής πλοήγησης / Έλεγχος PID
+Design, implementation, and optimization of an autonomous mobile robot capable of recognizing and following a predefined path in real time. The system relies on continuous signal processing from an array of infrared sensors to achieve accurate motor control.
 
-Δυνατότητες
-Απόκριση σε Πραγματικό Χρόνο: Ταχεία προσαρμογή πορείας σε καμπύλες και διασταυρώσεις υψηλής δυσκολίας.
-Έλεγχος PWM: Βελτιστοποίηση της δυναμικής συμπεριφοράς των κινητήρων για την εξάλειψη ταλαντώσεων.
-Δομημένος Κώδικας: Αρθρωτή αρχιτεκτονική (modular code) για την εύκολη βαθμονόμηση (calibration) των ορίων των αισθητήρων.
+Hardware Architecture
+- Microcontroller: Raspberry Pi Pico (ARM Cortex-M0+)
+- Programming Language: MicroPython
+- Sensor System: Infrared Sensor Array (IR)
+- Power and Motion Control: DC Motor Driver with Pulse Width Modulation (PWM)
+- Control Algorithm: Custom feedback-based navigation logic / PID Control
+Key Features
+- Real-Time Response: Rapid path correction on curves and complex intersections.
+- PWM Motor Control: Optimization of motor dynamics to minimize oscillations and improve movement stability.
+- Modular Code Structure: Well-organized software architecture allowing easy sensor calibration and adjustment of detection thresholds.
+
+
+
+
+
+
+
+
+
+
+
+
+Is this conversation helpful so far?
