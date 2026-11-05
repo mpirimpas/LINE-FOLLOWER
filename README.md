@@ -1,5 +1,5 @@
 Autonomous Line-Tracking Robotic System
-University Project within the Department of Informatics (International Hellenic University / DUTH Kavala).
+< University Project within the Department of Informatics (International Hellenic University / DUTH Kavala).
 
 Purpose
 
