@@ -1,8 +1,6 @@
 Autonomous Line-Tracking Robotic System
 > University Project within the Department of Informatics (International Hellenic University / DUTH Kavala).
 
-Purpose
-
 Design, implementation, and optimization of an autonomous mobile robot capable of recognizing and following a predefined path in real time. The system relies on continuous signal processing from an array of infrared sensors to achieve accurate motor control.
 
 Hardware Architecture
